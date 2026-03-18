@@ -1,0 +1,361 @@
+[2026-03-18 01:21:58] local.ERROR: No default Filament panel is set. You may do this with the `default()` method inside a Filament provider's `panel()` configuration. {"exception":"[object] (Filament\\Exceptions\\NoDefaultPanelSetException(code: 0): No default Filament panel is set. You may do this with the `default()` method inside a Filament provider's `panel()` configuration. at C:/xamppp/htdocs/bening_sewa-mobil/vendor/filament/filament/src/PanelRegistry.php:32)
+[stacktrace]
+#0 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(266): Filament/PanelRegistry->Filament/{closure}()
+#1 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Collections/Arr.php(314): value(Object(Closure))
+#2 C:/xamppp/htdocs/bening_sewa-mobil/vendor/filament/filament/src/PanelRegistry.php(29): Illuminate/Support/Arr::first(Array, Object(Closure), Object(Closure))
+#3 C:/xamppp/htdocs/bening_sewa-mobil/vendor/filament/filament/src/FilamentManager.php(147): Filament/PanelRegistry->getDefault()
+#4 C:/xamppp/htdocs/bening_sewa-mobil/vendor/filament/filament/src/FilamentManager.php(119): Filament/FilamentManager->getDefaultPanel()
+#5 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(363): Filament/FilamentManager->getCurrentOrDefaultPanel()
+#6 C:/xamppp/htdocs/bening_sewa-mobil/vendor/filament/filament/src/Commands/MakeUserCommand.php(84): Illuminate/Support/Facades/Facade::__callStatic('getCurrentOrDef...', Array)
+#7 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Filament/Commands/MakeUserCommand->handle()
+#8 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate/Container/BoundMethod::Illuminate/Container/{closure}()
+#9 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate/Container/Util::unwrapIfClosure(Object(Closure))
+#10 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate/Container/BoundMethod::callBoundMethod(Object(Illuminate/Foundation/Application), Array, Object(Closure))
+#11 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate/Container/BoundMethod::call(Object(Illuminate/Foundation/Application), Array, Array, NULL)
+#12 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate/Container/Container->call(Array)
+#13 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Command/Command.php(341): Illuminate/Console/Command->execute(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#14 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony/Component/Console/Command/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#15 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(1117): Illuminate/Console/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#16 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(356): Symfony/Component/Console/Application->doRunCommand(Object(Filament/Commands/MakeUserCommand), Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#17 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(195): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#18 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#19 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#20 C:/xamppp/htdocs/bening_sewa-mobil/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#21 {main}
+"} 
+[2026-03-18 01:23:30] local.ERROR: No default Filament panel is set. You may do this with the `default()` method inside a Filament provider's `panel()` configuration. {"exception":"[object] (Filament\\Exceptions\\NoDefaultPanelSetException(code: 0): No default Filament panel is set. You may do this with the `default()` method inside a Filament provider's `panel()` configuration. at C:/xamppp/htdocs/bening_sewa-mobil/vendor/filament/filament/src/PanelRegistry.php:32)
+[stacktrace]
+#0 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(266): Filament/PanelRegistry->Filament/{closure}()
+#1 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Collections/Arr.php(314): value(Object(Closure))
+#2 C:/xamppp/htdocs/bening_sewa-mobil/vendor/filament/filament/src/PanelRegistry.php(29): Illuminate/Support/Arr::first(Array, Object(Closure), Object(Closure))
+#3 C:/xamppp/htdocs/bening_sewa-mobil/vendor/filament/filament/src/FilamentManager.php(147): Filament/PanelRegistry->getDefault()
+#4 C:/xamppp/htdocs/bening_sewa-mobil/vendor/filament/filament/src/FilamentManager.php(119): Filament/FilamentManager->getDefaultPanel()
+#5 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(363): Filament/FilamentManager->getCurrentOrDefaultPanel()
+#6 C:/xamppp/htdocs/bening_sewa-mobil/vendor/filament/filament/src/Commands/MakeUserCommand.php(84): Illuminate/Support/Facades/Facade::__callStatic('getCurrentOrDef...', Array)
+#7 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Filament/Commands/MakeUserCommand->handle()
+#8 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate/Container/BoundMethod::Illuminate/Container/{closure}()
+#9 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate/Container/Util::unwrapIfClosure(Object(Closure))
+#10 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate/Container/BoundMethod::callBoundMethod(Object(Illuminate/Foundation/Application), Array, Object(Closure))
+#11 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate/Container/BoundMethod::call(Object(Illuminate/Foundation/Application), Array, Array, NULL)
+#12 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate/Container/Container->call(Array)
+#13 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Command/Command.php(341): Illuminate/Console/Command->execute(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#14 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony/Component/Console/Command/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#15 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(1117): Illuminate/Console/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#16 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(356): Symfony/Component/Console/Application->doRunCommand(Object(Filament/Commands/MakeUserCommand), Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#17 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(195): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#18 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#19 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#20 C:/xamppp/htdocs/bening_sewa-mobil/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#21 {main}
+"} 
+[2026-03-18 01:24:18] local.ERROR: Command "filament:install-panels" is not defined.
+
+Did you mean one of these?
+    filament:about
+    filament:assets
+    filament:cache-components
+    filament:check-translations
+    filament:clear-cached-components
+    filament:cluster
+    filament:column
+    filament:component
+    filament:custom-block
+    filament:entry
+    filament:exporter
+    filament:field
+    filament:form
+    filament:form-field
+    filament:form-layout
+    filament:importer
+    filament:infolist
+    filament:infolist-entry
+    filament:infolist-layout
+    filament:infolist-schema
+    filament:install
+    filament:issue
+    filament:layout
+    filament:livewire-form
+    filament:livewire-schema
+    filament:livewire-table
+    filament:make-cluster
+    filament:make-issue
+    filament:make-page
+    filament:make-panel
+    filament:make-relation-manager
+    filament:make-resource
+    filament:make-theme
+    filament:make-user
+    filament:make-widget
+    filament:optimize
+    filament:optimize-clear
+    filament:page
+    filament:panel
+    filament:relation-manager
+    filament:resource
+    filament:rich-content-custom-block
+    filament:rich-editor-custom-block
+    filament:schema
+    filament:schema-component
+    filament:schema-layout
+    filament:table
+    filament:table-column
+    filament:theme
+    filament:upgrade
+    filament:user
+    filament:widget {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"filament:install-panels\" is not defined.
+
+Did you mean one of these?
+    filament:about
+    filament:assets
+    filament:cache-components
+    filament:check-translations
+    filament:clear-cached-components
+    filament:cluster
+    filament:column
+    filament:component
+    filament:custom-block
+    filament:entry
+    filament:exporter
+    filament:field
+    filament:form
+    filament:form-field
+    filament:form-layout
+    filament:importer
+    filament:infolist
+    filament:infolist-entry
+    filament:infolist-layout
+    filament:infolist-schema
+    filament:install
+    filament:issue
+    filament:layout
+    filament:livewire-form
+    filament:livewire-schema
+    filament:livewire-table
+    filament:make-cluster
+    filament:make-issue
+    filament:make-page
+    filament:make-panel
+    filament:make-relation-manager
+    filament:make-resource
+    filament:make-theme
+    filament:make-user
+    filament:make-widget
+    filament:optimize
+    filament:optimize-clear
+    filament:page
+    filament:panel
+    filament:relation-manager
+    filament:resource
+    filament:rich-content-custom-block
+    filament:rich-editor-custom-block
+    filament:schema
+    filament:schema-component
+    filament:schema-layout
+    filament:table
+    filament:table-column
+    filament:theme
+    filament:upgrade
+    filament:user
+    filament:widget at C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php:759)
+[stacktrace]
+#0 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(298): Symfony/Component/Console/Application->find('filament:instal...')
+#1 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(195): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#2 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#3 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#4 C:/xamppp/htdocs/bening_sewa-mobil/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#5 {main}
+"} 
+[2026-03-18 01:25:10] local.ERROR: No default Filament panel is set. You may do this with the `default()` method inside a Filament provider's `panel()` configuration. {"exception":"[object] (Filament\\Exceptions\\NoDefaultPanelSetException(code: 0): No default Filament panel is set. You may do this with the `default()` method inside a Filament provider's `panel()` configuration. at C:/xamppp/htdocs/bening_sewa-mobil/vendor/filament/filament/src/PanelRegistry.php:32)
+[stacktrace]
+#0 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(266): Filament/PanelRegistry->Filament/{closure}()
+#1 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Collections/Arr.php(314): value(Object(Closure))
+#2 C:/xamppp/htdocs/bening_sewa-mobil/vendor/filament/filament/src/PanelRegistry.php(29): Illuminate/Support/Arr::first(Array, Object(Closure), Object(Closure))
+#3 C:/xamppp/htdocs/bening_sewa-mobil/vendor/filament/filament/src/FilamentManager.php(147): Filament/PanelRegistry->getDefault()
+#4 C:/xamppp/htdocs/bening_sewa-mobil/vendor/filament/filament/src/FilamentManager.php(119): Filament/FilamentManager->getDefaultPanel()
+#5 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(363): Filament/FilamentManager->getCurrentOrDefaultPanel()
+#6 C:/xamppp/htdocs/bening_sewa-mobil/vendor/filament/filament/src/Commands/MakeUserCommand.php(84): Illuminate/Support/Facades/Facade::__callStatic('getCurrentOrDef...', Array)
+#7 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Filament/Commands/MakeUserCommand->handle()
+#8 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate/Container/BoundMethod::Illuminate/Container/{closure}()
+#9 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate/Container/Util::unwrapIfClosure(Object(Closure))
+#10 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate/Container/BoundMethod::callBoundMethod(Object(Illuminate/Foundation/Application), Array, Object(Closure))
+#11 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate/Container/BoundMethod::call(Object(Illuminate/Foundation/Application), Array, Array, NULL)
+#12 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate/Container/Container->call(Array)
+#13 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Command/Command.php(341): Illuminate/Console/Command->execute(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#14 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony/Component/Console/Command/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#15 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(1117): Illuminate/Console/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#16 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(356): Symfony/Component/Console/Application->doRunCommand(Object(Filament/Commands/MakeUserCommand), Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#17 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(195): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#18 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#19 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#20 C:/xamppp/htdocs/bening_sewa-mobil/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#21 {main}
+"} 
+[2026-03-18 01:25:34] local.ERROR: The "-p" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"-p\" option does not exist. at C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Input/ArgvInput.php:128)
+[stacktrace]
+#0 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Input/ArgvInput.php(110): Symfony/Component/Console/Input/ArgvInput->parseShortOptionSet('panels')
+#1 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Input/ArgvInput.php(90): Symfony/Component/Console/Input/ArgvInput->parseShortOption('-panels')
+#2 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Input/ArgvInput.php(77): Symfony/Component/Console/Input/ArgvInput->parseToken('-panels', true)
+#3 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Input/Input.php(53): Symfony/Component/Console/Input/ArgvInput->parse()
+#4 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Command/Command.php(295): Symfony/Component/Console/Input/Input->bind(Object(Symfony/Component/Console/Input/InputDefinition))
+#5 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony/Component/Console/Command/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#6 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(1117): Illuminate/Console/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#7 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(356): Symfony/Component/Console/Application->doRunCommand(Object(Filament/Support/Commands/InstallCommand), Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#8 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(195): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#9 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#10 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 C:/xamppp/htdocs/bening_sewa-mobil/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#12 {main}
+"} 
+[2026-03-18 01:25:40] local.ERROR: Command "filament:install-panels" is not defined.
+
+Did you mean one of these?
+    filament:about
+    filament:assets
+    filament:cache-components
+    filament:check-translations
+    filament:clear-cached-components
+    filament:cluster
+    filament:column
+    filament:component
+    filament:custom-block
+    filament:entry
+    filament:exporter
+    filament:field
+    filament:form
+    filament:form-field
+    filament:form-layout
+    filament:importer
+    filament:infolist
+    filament:infolist-entry
+    filament:infolist-layout
+    filament:infolist-schema
+    filament:install
+    filament:issue
+    filament:layout
+    filament:livewire-form
+    filament:livewire-schema
+    filament:livewire-table
+    filament:make-cluster
+    filament:make-issue
+    filament:make-page
+    filament:make-panel
+    filament:make-relation-manager
+    filament:make-resource
+    filament:make-theme
+    filament:make-user
+    filament:make-widget
+    filament:optimize
+    filament:optimize-clear
+    filament:page
+    filament:panel
+    filament:relation-manager
+    filament:resource
+    filament:rich-content-custom-block
+    filament:rich-editor-custom-block
+    filament:schema
+    filament:schema-component
+    filament:schema-layout
+    filament:table
+    filament:table-column
+    filament:theme
+    filament:upgrade
+    filament:user
+    filament:widget {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"filament:install-panels\" is not defined.
+
+Did you mean one of these?
+    filament:about
+    filament:assets
+    filament:cache-components
+    filament:check-translations
+    filament:clear-cached-components
+    filament:cluster
+    filament:column
+    filament:component
+    filament:custom-block
+    filament:entry
+    filament:exporter
+    filament:field
+    filament:form
+    filament:form-field
+    filament:form-layout
+    filament:importer
+    filament:infolist
+    filament:infolist-entry
+    filament:infolist-layout
+    filament:infolist-schema
+    filament:install
+    filament:issue
+    filament:layout
+    filament:livewire-form
+    filament:livewire-schema
+    filament:livewire-table
+    filament:make-cluster
+    filament:make-issue
+    filament:make-page
+    filament:make-panel
+    filament:make-relation-manager
+    filament:make-resource
+    filament:make-theme
+    filament:make-user
+    filament:make-widget
+    filament:optimize
+    filament:optimize-clear
+    filament:page
+    filament:panel
+    filament:relation-manager
+    filament:resource
+    filament:rich-content-custom-block
+    filament:rich-editor-custom-block
+    filament:schema
+    filament:schema-component
+    filament:schema-layout
+    filament:table
+    filament:table-column
+    filament:theme
+    filament:upgrade
+    filament:user
+    filament:widget at C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php:759)
+[stacktrace]
+#0 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(298): Symfony/Component/Console/Application->find('filament:instal...')
+#1 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(195): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#2 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#3 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#4 C:/xamppp/htdocs/bening_sewa-mobil/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#5 {main}
+"} 
+[2026-03-18 01:26:10] local.ERROR: No arguments expected for "filament:install" command, got "–panels". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): No arguments expected for \"filament:install\" command, got \"–panels\". at C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Input/ArgvInput.php:199)
+[stacktrace]
+#0 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Input/ArgvInput.php(92): Symfony/Component/Console/Input/ArgvInput->parseArgument('/xE2/x80/x93panels')
+#1 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Input/ArgvInput.php(77): Symfony/Component/Console/Input/ArgvInput->parseToken('/xE2/x80/x93panels', true)
+#2 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Input/Input.php(53): Symfony/Component/Console/Input/ArgvInput->parse()
+#3 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Command/Command.php(295): Symfony/Component/Console/Input/Input->bind(Object(Symfony/Component/Console/Input/InputDefinition))
+#4 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony/Component/Console/Command/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#5 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(1117): Illuminate/Console/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#6 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(356): Symfony/Component/Console/Application->doRunCommand(Object(Filament/Support/Commands/InstallCommand), Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#7 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(195): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#8 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#9 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#10 C:/xamppp/htdocs/bening_sewa-mobil/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#11 {main}
+"} 
+[2026-03-18 01:26:29] local.ERROR: The "-–" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"-–\" option does not exist. at C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Input/ArgvInput.php:128)
+[stacktrace]
+#0 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Input/ArgvInput.php(110): Symfony/Component/Console/Input/ArgvInput->parseShortOptionSet('/xE2/x80/x93panels')
+#1 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Input/ArgvInput.php(90): Symfony/Component/Console/Input/ArgvInput->parseShortOption('-/xE2/x80/x93panels')
+#2 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Input/ArgvInput.php(77): Symfony/Component/Console/Input/ArgvInput->parseToken('-/xE2/x80/x93panels', true)
+#3 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Input/Input.php(53): Symfony/Component/Console/Input/ArgvInput->parse()
+#4 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Command/Command.php(295): Symfony/Component/Console/Input/Input->bind(Object(Symfony/Component/Console/Input/InputDefinition))
+#5 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony/Component/Console/Command/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#6 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(1117): Illuminate/Console/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#7 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(356): Symfony/Component/Console/Application->doRunCommand(Object(Filament/Support/Commands/InstallCommand), Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#8 C:/xamppp/htdocs/bening_sewa-mobil/vendor/symfony/console/Application.php(195): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#9 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#10 C:/xamppp/htdocs/bening_sewa-mobil/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#11 C:/xamppp/htdocs/bening_sewa-mobil/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#12 {main}
+"} 
+[2026-03-18 01:27:19] local.ERROR: __VSCODE_LARAVEL_STARTUP_ERROR__: rename(C:\xamppp\htdocs\bening_sewa-mobil\bootstrap\cache\ser2780.tmp,C:\xamppp\htdocs\bening_sewa-mobil\bootstrap\cache\services.php): Access is denied (code: 5) {"exception":"[object] (Error(code: 0): __VSCODE_LARAVEL_STARTUP_ERROR__: rename(C:\\xamppp\\htdocs\\bening_sewa-mobil\\bootstrap\\cache\\ser2780.tmp,C:\\xamppp\\htdocs\\bening_sewa-mobil\\bootstrap\\cache\\services.php): Access is denied (code: 5) at C:/xamppp/htdocs/bening_sewa-mobil/vendor/_laravel_ide/discover-ec2e9975ebf5755f76a162b3dce99361.php:33)
+[stacktrace]
+#0 C:/xamppp/htdocs/bening_sewa-mobil/vendor/_laravel_ide/discover-ec2e9975ebf5755f76a162b3dce99361.php(62): LaravelVsCode::startupError(Object(ErrorException))
+#1 {main}
+"} 
